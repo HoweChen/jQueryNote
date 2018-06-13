@@ -1,0 +1,18 @@
+{
+  "name": "jQueryNote",
+  "version": "1.0.0",
+  "description": "Note for learning jQuery",
+  "main": "index.js",
+  "repository": "https://github.com/HoweChen/jQueryNote.git",
+  "author": "SkyFather <cyh278889789@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node /Users/howechen/GitHub/jQueryNote/lib/index.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jquery": "^3.3.1"
+  }
+}
